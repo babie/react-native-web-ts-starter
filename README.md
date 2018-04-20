@@ -23,7 +23,7 @@ sed -i '' "s/\(^declare var require: NodeRequire;\)/\/\/\1/g" node_modules/\@typ
 $ yarn add --dev react-native-web @types/react-native-web@npm:@types/react-native
 ```
 
-Edit tsconfig.json then add `"skipLibCheck": true'` to `compilerOptions`.
+Then edit `tsconfig.json` and add `"skipLibCheck": true'` to `compilerOptions`.
 
 ## Create React App
 
