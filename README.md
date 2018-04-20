@@ -24,7 +24,7 @@ $ chmod +x scripts/postinstall.sh
 $ yarn add --dev react-native-web @types/react-native-web@npm:@types/react-native
 ```
 
-Then edit `tsconfig.json` and add `"skipLibCheck": true'` to `compilerOptions`.
+Then edit `tsconfig.json` and add `"skipLibCheck": true` to `compilerOptions`.
 
 ## Create React App
 
