@@ -20,6 +20,7 @@ $ cat > scripts/postinstall.sh
 # https://github.com/aws/aws-sdk-js/issues/1926
 sed -i '' "s/\(^declare var require: NodeRequire;\)/\/\/\1/g" node_modules/\@types/node/index.d.ts
 ^C
+$ chmod +x scripts/postinstall.sh
 $ yarn add --dev react-native-web @types/react-native-web@npm:@types/react-native
 ```
 
