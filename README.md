@@ -21,7 +21,8 @@ $ cat > scripts/postinstall.sh
 sed -i '' "s/\(^declare var require: NodeRequire;\)/\/\/\1/g" node_modules/\@types/node/index.d.ts
 ^C
 $ chmod +x scripts/postinstall.sh
-$ yarn add --dev react-native-web @types/react-native-web@npm:@types/react-native
+$ yarn add react-native-web
+$ yarn add --dev @types/react-native-web@npm:@types/react-native
 ```
 
 Then edit `tsconfig.json` and add `"skipLibCheck": true` to `compilerOptions`.
