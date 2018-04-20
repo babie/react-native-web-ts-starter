@@ -1,6 +1,14 @@
 # react-native-web-ts-starter
 react-native-web with typescript
 
+# TL;DR
+```
+yarn global add create-react-app
+create-react-app my-app --scripts-version=react-scripts-ts
+cd my-app
+yarn add --dev @types/react-native-web@npm:@types/react-native
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
